@@ -16,6 +16,10 @@
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>Privacy — Camera Usage Description</key>
+	<string>$(PRODUCT_NAME) would like to access your camera</string>
+	<key>Privacy — Photo Library Usage Description</key>
+	<string>$(PRODUCT_NAME) would like to access your photo</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 </dict>

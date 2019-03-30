@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F82A1891224F2B08003E7F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A1890224F2B08003E7F69 /* AppDelegate.swift */; };
-		F82A1893224F2B08003E7F69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A1892224F2B08003E7F69 /* ViewController.swift */; };
+		F82A1893224F2B08003E7F69 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A1892224F2B08003E7F69 /* HomeViewController.swift */; };
 		F82A1896224F2B08003E7F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82A1894224F2B08003E7F69 /* Main.storyboard */; };
 		F82A1898224F2B0B003E7F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82A1897224F2B0B003E7F69 /* Assets.xcassets */; };
 		F82A189B224F2B0B003E7F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82A1899224F2B0B003E7F69 /* LaunchScreen.storyboard */; };
 		F82A18A6224F2B0B003E7F69 /* NutrimateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A18A5224F2B0B003E7F69 /* NutrimateTests.swift */; };
 		F82A18B1224F2B0B003E7F69 /* NutrimateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A18B0224F2B0B003E7F69 /* NutrimateUITests.swift */; };
+		F82A18C1224F361A003E7F69 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A18C0224F361A003E7F69 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		F82A188D224F2B08003E7F69 /* Nutrimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82A1890224F2B08003E7F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F82A1892224F2B08003E7F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F82A1892224F2B08003E7F69 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F82A1895224F2B08003E7F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F82A1897224F2B0B003E7F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F82A189A224F2B0B003E7F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		F82A18AC224F2B0B003E7F69 /* NutrimateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutrimateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82A18B0224F2B0B003E7F69 /* NutrimateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrimateUITests.swift; sourceTree = "<group>"; };
 		F82A18B2224F2B0B003E7F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82A18C0224F361A003E7F69 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				F82A1890224F2B08003E7F69 /* AppDelegate.swift */,
-				F82A1892224F2B08003E7F69 /* ViewController.swift */,
+				F82A1892224F2B08003E7F69 /* HomeViewController.swift */,
 				F82A1894224F2B08003E7F69 /* Main.storyboard */,
 				F82A1897224F2B0B003E7F69 /* Assets.xcassets */,
 				F82A1899224F2B0B003E7F69 /* LaunchScreen.storyboard */,
 				F82A189C224F2B0B003E7F69 /* Info.plist */,
+				F82A18C0224F361A003E7F69 /* CameraViewController.swift */,
 			);
 			path = Nutrimate;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82A1893224F2B08003E7F69 /* ViewController.swift in Sources */,
+				F82A1893224F2B08003E7F69 /* HomeViewController.swift in Sources */,
 				F82A1891224F2B08003E7F69 /* AppDelegate.swift in Sources */,
+				F82A18C1224F361A003E7F69 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
